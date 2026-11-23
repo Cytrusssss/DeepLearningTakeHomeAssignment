@@ -1,0 +1,55 @@
+{
+  "models": {
+    "Vanilla AE": {
+      "mse": 0.006533429957926273,
+      "psnr": 23.014850616455078,
+      "ssim": 0.8289032024726314,
+      "fid": null,
+      "epoch_time": 8.075473841031393,
+      "latency_ms": null
+    },
+    "Sparse AE": {
+      "mse": 0.009204288944602013,
+      "psnr": 21.39539337158203,
+      "ssim": 0.7718080083836487,
+      "fid": null,
+      "epoch_time": 9.249029501279194,
+      "latency_ms": null
+    },
+    "VAE": {
+      "mse": 0.012982831336557865,
+      "psnr": 19.728172302246094,
+      "ssim": 0.7138370292595774,
+      "fid": 86.02300014429218,
+      "epoch_time": 8.495375219980875,
+      "latency_ms": 0.22740840911865234
+    },
+    "Vanilla GAN": {
+      "mse": null,
+      "psnr": null,
+      "ssim": null,
+      "fid": 134.5585881709875,
+      "epoch_time": 9.507320156097412,
+      "latency_ms": 0.3388404846191406
+    },
+    "DCGAN": {
+      "mse": null,
+      "psnr": null,
+      "ssim": null,
+      "fid": 18.373657046850326,
+      "epoch_time": 14.773825979232788,
+      "latency_ms": 4.044780731201172
+    },
+    "DDPM": {
+      "mse": null,
+      "psnr": null,
+      "ssim": null,
+      "fid": 9.330109036107729,
+      "epoch_time": 48.0778008878231,
+      "latency_ms": 18715.468327204388
+    }
+  },
+  "fid_reference": 4.421108658870423,
+  "n_fid": 5000,
+  "T_diffusion": 1000
+}
